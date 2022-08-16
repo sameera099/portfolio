@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>counters1</title>
+<style>
+body
+{
+counter-reset:section;
+}
+h2::before
+{
+counter-increment: section;
+content:"TUTORIAL  "  counter(section)  "-";
+}
+</style>
+</head>
+<body>
+<h1>WEB DEVELOPEMENT</h1>
+<h2>HTML CRS</h2>
+<h2>CSS CRS</h2>
+<h2>JAVASCRIPT CRS</h2>
+<h2>JQUERY</h2>
+<h2>BOOTSTRAP CRS</h2>
+<h2>NODEJS</h2>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>chnge color </title>
+<script>
+setInterval(changeColor,1000);
+function changeColor()
+{
+var x=document.getElementById("heading");
+if(x.style.color=="black")
+x.style.color="red";
+else if(x.style.color=="red")
+x.style.color="blue";
+else if(x.style.color=="blue")
+x.style.color="green";
+else if(x.style.color=="green")
+x.style.color="black";
+else x.style.color="black";
+}
+</script>
+</head>
+<body>
+<h1 id="heading"> CHANGE COLOR FOR SECOND</h1>
+
+</body>
+</html>

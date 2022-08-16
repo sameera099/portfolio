@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<title>events</title>
+</head>
+<body bgcolor="blue" text="red">
+<center>
+<h1>EVENTS IN JAVASCRIPT</h1>
+<p id="p1"></p1>
+<input type= "button" value="click here" onclick="event1()">
+<script>
+function event1()
+{
+document.getElementById("p1").innerHTML="hello welcome to javascript";
+}
+</script>
+<p id="p2"></p>
+<input type="button" value="click here" ondblclick="event2()">
+<script>
+function event2()
+{
+document.getElementById("p2").innerHTML="hello welcome to sameera";
+}
+</script>
+<h2 id="h2"></h2>
+<input type="button" value="click here" onmouseover="event3()">
+<script>
+function event3()
+{
+document.getElementById("h2").innerHTML="hello" ;
+}
+</script>
+<h3 id="h3"></h3>
+<input type="button" value="click here" onmouseout="event4()">
+<script>
+function event4()
+{
+document.getElementById("h3").innerHTML="javascript";
+}
+</script>
+
+<h4 id="h4"></h4>
+<input type="text" onfocus="event5()">
+<script>
+function event5()
+{
+document.getElementById("h4").innerHTML="hello sam";
+}
+</script>
+
+<h4 id="h4"></h4>
+<input type="text"  onblur="event6()">
+<script>
+function event6()
+{
+document.getElementById("h4").innerHTML=" hello javascript";
+}
+</script>
+<h4 id="h5"></h4>
+<input type="text"  onchange="event7()">
+<script>
+function event7()
+{
+document.getElementById("h5").innerHTML=" hello javascript and css";
+}
+</script>
+
+
+
+</center>
+</body>
+</html>

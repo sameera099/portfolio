@@ -1,0 +1,19 @@
+body
+{
+background-image:url("C:\Users\Mohan\Downloads\facebook-icon.png");
+background-repeat:repeat-x;
+
+}
+p
+{
+background-image:url("C:\Users\Mohan\Downloads\facebook-icon.png");
+background-repeat:no-repeat;
+background-position:right top;
+}
+h1
+{
+background-image:url("C:\Users\Mohan\Downloads\facebook-icon.png");
+background-repeat:no-repeat;
+background-position:200px 300px;
+background-attachment:fixed;
+}

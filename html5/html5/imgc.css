@@ -1,0 +1,11 @@
+img{
+border-color:red;
+border-style:dashed;
+border-width:5px;
+}
+img:hover
+{
+height:200px;
+width:300px;
+border-radius:100px;
+}

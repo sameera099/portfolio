@@ -1,0 +1,12 @@
+body
+{
+text-shadow:4px 4px 6px blue;
+white-space:nowrap;
+text-indent:50px;
+text-align:justify;
+text-transform:capitalize;
+}
+a{
+text-decoration:none;
+
+}

@@ -1,0 +1,27 @@
+header
+{
+background-color:red;
+text-align:center;
+border:2px solid green;
+color:white;
+width:80%;
+margin:20px;
+padding:20px;
+}
+footer
+{
+width:80%;
+margin:20px;
+padding:10px;
+text-align:right;
+border:2px solid green;
+
+}
+p
+{
+color:blue;
+width:80%;
+margin:20px;
+text-align:center;
+border:2px solid black;
+}

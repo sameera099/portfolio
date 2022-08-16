@@ -1,0 +1,21 @@
+<!doctype html>
+<head>
+<title>functions</title>
+</head>
+<body>
+<h1>local n global variable</h1>
+<script>
+var x=40;//global(use anywhere)
+function add()
+{
+var y=30;//local(use only in function)
+document.write(y);
+z=x+y;
+document.write(z);
+}
+
+add();
+</script>
+
+</body>
+</html>

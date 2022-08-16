@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<center>
+<h1>PASSWORD VALIDATION</h1>
+<form name="myform" method="post" onsubmit=" return validpassword()" action="success.html">
+
+Password:<input type="password" name="pass1">
+<br>
+Confirm Password:<input type="password" name="pass2">
+<br>
+<br>
+<input type="submit" value="check">
+</form>
+<script>
+ function validpassword()
+{
+var password=document.myform.pass1.value; //form lo text box nundi user enter chesin value ev ar lo strt avvali
+var cpassword=document.myform.pass2.value;
+if(password.length<9)
+{
+alert("password must contain 9 characters");
+return false;
+}
+if(password==cpassword)
+{
+return true;
+}
+else
+{
+alert("password and cpassword must be same");
+return false;
+}
+}
+</script>
+<h1>NAME VALIDATION</h1>
+<form name="myform1" method="post" action="form.html" onsubmit="return validname()" pattern="[a-zA-Z]{2,}">
+Your name:<input type="text" name=name2">
+<br>
+
+<input type="submit" value="click here">
+</form>
+
+<script>
+function validname()
+{
+var name=document.myform1.name2.value;
+
+if(name=="null" || name=="")
+{
+alert("please provide names");
+return false;
+
+</body>
+</html>

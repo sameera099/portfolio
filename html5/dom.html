@@ -1,0 +1,42 @@
+<doctype html>
+<html>
+<head>
+<title>dom</title>
+</head>
+<body bgcolor="red" text="pink>
+<center>
+<h1 id="num">DOCUMENT OBJECT MODEL</h1>
+<script>
+document.write("hello");
+</script>
+
+
+<script>
+function getcube()
+{
+var num= document.getElementById("number").value;
+alert(num*num*num);
+}                                                                                                                                                                                                                                                                            
+</script>
+<form>
+enter your num:<input type ="text" id="number">
+<br>
+<input type="button" value ="find cube" onclick="getcube()">
+</form>
+
+<script>
+function printvalue()
+{
+var name1=document.form1.urname.value;
+alert("welcome" + name1);
+}                                                                                                                                                                                                                                 
+</script>
+
+<form name="form1">
+enter name:<input type="text" name="urname">
+<br>
+<input type="button" value="print" onclick="printvalue()">
+</form>
+</center>
+</body>
+</html>

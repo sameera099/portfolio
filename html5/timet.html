@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<title>time n date</title>
+</head>
+<body bgcolor="green" text="white">
+<h1><center>TIME AND DATE</center></h1>
+<span id="sam"> </span> //id for inner html
+<script>
+var today=new Date();
+document.write(today);
+</script>
+<script>
+var today=new Date();
+var day=today.getDate();
+var month=today.getMonth();
+var year=today.getFullYear(); //get year lo last two digits display means2021 lo 21 display,full year means four digits
+document.write(day);
+document.write(month+1); //only month value+1 bcz mnth start with 0 so add+1
+document.write(year);
+</script>
+<script>
+var today=new Date();
+var day=today.getDate();
+var month=today.getMonth()+1;
+var year=today.getFullYear();
+
+document.write(day + "/"+ month +"/"+ year +"<br>" );
+</script>
+<script>
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+document.write(h);
+document.write(m);
+document.write(s);
+</script>
+<script>
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+ document.write(h+":" + +m+":"+ s+"<br>");
+</script>
+<script>
+function getTime()//running time
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+document.getElementById("sam").innerHTML=h+":"+m+":"+s; //single place lo time change avvali so 3 ways lo one inner html
+
+setInterval("getTime()" ,1000);//continuous ga call avvadaniki n 1000 for sec=1000milisec
+}
+getTime();
+</script>
+</body>
+</html>

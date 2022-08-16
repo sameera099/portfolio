@@ -1,0 +1,10 @@
+table
+{
+caption-side:bottom;
+border-collapse:separate;
+border-spacing:8px;
+empty-cells:hide;
+border-color:aqua;
+border-style:dashed;
+border-width:5px;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<title>flexbox2</title>
+<style>
+.flex-container
+{
+display:flex;
+height:250px;
+background-color:green;
+align-items:center;
+align-content:space-around;
+}
+.flex-container>div
+{
+background-color:blue;
+width:100px;
+margin:10px;
+text-align:center;
+line-height:35px;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="flex-container">
+<div style="flex-grow:1">1</div>
+<div>1</div>
+<div>2</div>
+<div style="flex-grow:5">3</div>
+
+
+<div style:flex-grow:10">6</div>
+<div>2</div>
+<div style="align-self:center">3</div>
+<div>1</div>
+<div style="align-self:flex-end">2</div>
+
+
+</div>
+</body>
+</html>
